@@ -1,0 +1,18 @@
+	//
+        //Criação da tabela
+        //
+        StringBuilder tabela = new StringBuilder();
+        int contador_tabela=1;
+
+        for(int i=0; i<plainText2.length();i++){
+            tabela.append(plainText2.charAt(i));     //vai passar cada caracter 
+            if(contador_tabela%cols==0 && contador_tabela!= plainText2.length())
+                tabela.append("\n");                 //muda de linha
+                
+            contador_tabela+=1;
+        }
+
+        //
+        //Criação da tabela
+        //
+
